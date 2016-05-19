@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import TopNav from './top-nav';
-import BottomNav from './bottom-nav';
+import TopNav from './top_nav';
+import BottomNav from './bottom_nav';
 
 
 
