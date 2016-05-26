@@ -71,15 +71,20 @@ li {
 	height: 100px;
 	background: $LightGreen;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 	li {
 		display: inline-block;
 		color: #ffffff;
-		font-family: 'Short Stack', cursive;
+		font-family: 'Raleway', sans-serif;
 		font-size: 30px;
-		margin: auto 20px;
-
+		margin: auto 15px;
+		&.my-name {
+			font-weight: bold;
+		}
+		&:hover {
+			color: #0D4C91;
+		}
 	}
 }
 
@@ -111,7 +116,7 @@ li {
 		justify-content: center;
 		align-items: center;
 		color: #ffffff;
-		font-family: 'Short Stack', cursive;
+		font-family: 'Raleway', sans-serif;
 		font-size: 50px;
 	}
 	.contact-icons {
@@ -180,7 +185,7 @@ li {
 
 .home {
 	min-height: 500px;
-	background: blue;
+	margin: 25px auto auto 25px;
 }
 
 
@@ -201,7 +206,6 @@ li {
 
 .resume {
 	min-height: 500px;
-	background: blue;
 }
 
 
@@ -222,7 +226,6 @@ li {
 
 .projects {
 	min-height: 500px;
-	background: blue;
 }
 
 
@@ -243,7 +246,6 @@ li {
 
 .whats-next {
 	min-height: 500px;
-	background: blue;
 }
 
 

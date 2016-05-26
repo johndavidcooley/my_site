@@ -7,6 +7,13 @@ export default class TopNav extends Component {
 		return (
 			<div className='top-nav'>
 				<ul>
+					<Link to='/'>
+						<li className='my-name'>
+							John David Cooley
+						</li>
+					</Link>
+				</ul>
+				<ul>
 					<Link to='/resume'>
 						<li>
 							R&eacute;sum&eacute;
