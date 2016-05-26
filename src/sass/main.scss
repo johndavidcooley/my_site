@@ -12,6 +12,7 @@
 
 
 $LightGreen: #1EA076;
+$Moment: #61B2A7;
 $LinkedIn: #0077B5;
 $GitHub: #800080;
 $GMail: #CF0000;
@@ -69,7 +70,7 @@ li {
 .top-nav {
 	width: 100%;
 	height: 100px;
-	background: $LightGreen;
+	background: $Moment;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -110,7 +111,7 @@ li {
 	align-items: center;
 	width: 100%;
 	height: 150px;
-	background: $LightGreen;
+	background: $Moment;
 	.contact-info {
 		display: flex;
 		justify-content: center;
