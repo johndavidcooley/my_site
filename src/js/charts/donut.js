@@ -55,7 +55,7 @@ export default class Donut extends Component {
 		return (
 			<div className='doughnut'>
 				<div>
-					Donut Chart
+					Donuts
 				</div>
 				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
