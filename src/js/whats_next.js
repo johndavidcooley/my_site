@@ -5,13 +5,14 @@ export default class WhatsNext extends Component {
 	render() {
 		return (
 			<div className='whats-next'>
-				<div>
+				<div className='top-text'>
 					In the coming future, I plan to dive deeper into JavaScript and the React framework.
 					I want to continually challenge myself to master React and improve my JS chops through various personal projects.
 					In addition to React and JavaScript in general, I plan to tackle the MEAN Stack, as well as a number of different JavaScript frameworks, libraries, and testing frameworks.
 				</div>
-				<div>
+				<div className='now-and-then'>
 					<div className='learning-now'>
+						Currently Learning...
 						<ul className='learning-now-ul'>
 							<li className='learning-now-li'>
 								<img src='../images/mongodb.png' title='Mongo DB' alt='Mongo DB' />
@@ -34,6 +35,7 @@ export default class WhatsNext extends Component {
 						</ul>
 					</div>
 					<div className='learning-future'>
+						On Deck...
 						<ul className='learning-future-ul'>
 							<li className='learning-future-li'>
 								<img src='../images/backbone.png' title='EcmaScript 6' alt='EcmaScript 6' />

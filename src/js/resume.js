@@ -8,25 +8,33 @@ export default class Resume extends Component {
 				<div className='education'>
 					<div className='edu-tiy'>
 						<img src='../images/tiy.png' title='The Iron Yard' alt='The Iron Yard' />
+						Atlanta, GA May 2016
+						Front End Engineering With MVC Frameworks
 					</div>
 					<div className='edu-uf'>
 						<img src='../images/uf.png' title='University of Florida' alt='University of Florida' />
+						Gainesville, FL May 2011
+						Bachelor of Science, Advertising
+						Minor, Business Administration
 					</div>
 				</div>
 				<div className='experience'>
 					<div className='exp-socius'>
 						<img src='../images/socius.png' title='Socius Marketing, Inc.' alt='Socius Marketing, Inc.' />
-						SEO Writer May 2011 - January 2016
+						Tampa, FL May 2011 - January 2016
+						SEO Writer
 						Wrote SEO-specific content for the web to help increase organic rankings for clients in search engine results pages (SERPs). Conducted heavy research on keyword trends, keyword competition, and search traffic to develop marketing plans designed to maximize clients’ web presence. Edited the writing of peers for cohesion, flow, and grammar to consistently deliver a polished product. Posted client web content in WordPress, Adobe Dreamweaver, Drupal, Joomla!, and other content management systems. Used SEO-specific software from BrightLocal and Moz to test effectiveness and results. Frequently modified HTML and CSS files to satisfy client demands for website design.
 					</div>
 					<div className='exp-alligator'>
 						<img src='../images/alligator.png' title='The Independent Florida Alligator' alt='The Independent Florida Alligator' />
-						Advertising Sales Representative January 2011 - May 2011
+						Gainesville, FL January 2011 - May 2011
+						Advertising Sales Representative
 						Sold newspaper and online advertising space to local businesses in Gainesville, FL. Developed professional relationships with clients to establish rapport and earn trust. Frequently attended in-person meetings with clients to discuss advertising strategies, ad placement, timing, and pricing. Created ad design mockups that captured the client’s vision. Ensured that payments were received before ads were scheduled to run.
 					</div>
 				</div>
 				<div className='skills'>
 					<div className='front-end-development'>
+						Basic Front-End Development
 						<ul className='dev-ul'>
 							<li className='dev-li'>
 								<img src='../images/git.png' title='Git' alt='Git' />
@@ -55,6 +63,7 @@ export default class Resume extends Component {
 						</ul>
 					</div>
 					<div className='front-end-design'>
+						Front-End Design
 						<ul className='des-ul'>
 							<li className='des-li'>
 								<img src='../images/css3.png' title='CSS3' alt='CSS3' />
@@ -74,6 +83,7 @@ export default class Resume extends Component {
 						</ul>
 					</div>
 					<div className='javascript'>
+						JavaScript
 						<ul className='js-ul'>
 							<li className='js-li'>
 								<img src='../images/es6.png' title='EcmaScript 6' alt='EcmaScript 6' />
@@ -93,6 +103,7 @@ export default class Resume extends Component {
 						</ul>
 					</div>
 					<div className='javascript-libraries'>
+						JavaScript Libraries
 						<ul className='jsl-ul'>
 							<li className='jsl-li'>
 								<img src='../images/jquery.png' title='jQuery' alt='jQuery' />
@@ -109,6 +120,7 @@ export default class Resume extends Component {
 						</ul>
 					</div>
 					<div className='other-skills'>
+						Other Skills
 						<ul className='other-ul'>
 							<li className='other-li'>
 								<img src='../images/photoshop.jpg' title='Adobe Photoshop' alt='Adobe Photoshop' />

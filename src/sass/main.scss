@@ -207,6 +207,50 @@ li {
 
 .resume {
 	min-height: 500px;
+	.education {
+		.edu-tiy {
+		}
+		.edu-uf {
+		}
+	}
+	.experience {
+		.exp-socius {
+		}
+		.exp-alligator {
+		}
+	}
+	.skills {
+		.front-end-development {
+			.dev-ul {
+				.dev-li {
+				}
+			}
+		}
+		.front-end-design {
+			.des-ul {
+				.des-li {
+				}
+			}
+		}
+		.javascript {
+			.js-ul {
+				.js-li {
+				}
+			}
+		}
+		.javascript-libraries {
+			.jsl-ul {
+				.jsl-li {
+				}
+			}
+		}
+		.other-skills {
+			.other-ul {
+				.other-li {
+				}
+			}
+		}
+	}
 }
 
 
@@ -227,6 +271,24 @@ li {
 
 .projects {
 	min-height: 500px;
+	.project {
+		&.hockey-doctor {
+		}
+		&.vote-atl {
+		}
+		&.contact-list {
+		}
+		&.final-four {
+		}
+		&.ye-olde {
+		}
+		&.etsy-whiskey {
+		}
+		&.dynamic-time {
+		}
+		&.js-calculator {
+		}
+	}
 }
 
 
@@ -247,6 +309,22 @@ li {
 
 .whats-next {
 	min-height: 500px;
+	.top-text {
+	}
+	.now-and-then {
+		.learning-now {
+			.learning-not-ul {
+				.learning-now-li {
+				}
+			}
+		}
+		.learning-future {
+			.learning-future-ul {
+				.learning-future-li {
+				}
+			}
+		}
+	}
 }
 
 
