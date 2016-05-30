@@ -45,14 +45,11 @@ export default class Bar extends Component {
 
 	render() {
 		return (
-			<div>
-				<div>
-					<Link to="/">Back Home</Link>
-				</div>
+			<div className='bar'>
 				<div>
 					Bar Chart
 				</div>
-				<div className='bar'>
+				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
 				</div>
 			</div>

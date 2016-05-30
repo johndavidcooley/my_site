@@ -52,14 +52,11 @@ export default class Pie extends Component {
 
 	render() {
 		return (
-			<div>
-				<div>
-					<Link to="/">Back Home</Link>
-				</div>
+			<div className='pie'>
 				<div>
 					Pie Chart
 				</div>
-				<div className="pie">
+				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
 				</div>
 			</div>

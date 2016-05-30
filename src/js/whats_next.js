@@ -12,10 +12,10 @@ export default class WhatsNext extends Component {
 				</div>
 				<div className='now-and-then'>
 					<div className='learning-now'>
-						Currently Learning...
+						What I'm currently learning...
 						<ul className='learning-now-ul'>
 							<li className='learning-now-li'>
-								<img src='../images/mongodb.png' height='200' title='Mongo DB' alt='Mongo DB' />
+								<img src='../images/mongodb.png' height='200' title='MongoDB' alt='MongoDB' />
 							</li>
 							<li className='learning-now-li'>
 								<img src='../images/express.png' width='200' title='Express.js' alt='Express.js' />
@@ -35,13 +35,13 @@ export default class WhatsNext extends Component {
 						</ul>
 					</div>
 					<div className='learning-future'>
-						On Deck...
+						What I plan to learn next...
 						<ul className='learning-future-ul'>
 							<li className='learning-future-li'>
-								<img src='../images/backbone.png' width='200' title='EcmaScript 6' alt='EcmaScript 6' />
+								<img src='../images/backbone.png' width='200' title='Backbone.js' alt='Backbone.js' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/flux.png' width='200' title='Asynchronous JavaScript & XML' alt='Asynchronous JavaScript & XML' />
+								<img src='../images/flux.png' width='200' title='Flux' alt='Flux' />
 							</li>
 							<li className='learning-future-li'>
 								<img src='../images/phantom.png' width='200' title='PhantomJS' alt='PhantomJS' />
@@ -50,7 +50,7 @@ export default class WhatsNext extends Component {
 								<img src='../images/highcharts.png' width='200' title='Highcharts' alt='Highcharts' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/d3.png' width='200' title='JavaScript Object Notation' alt='JavaScript Object Notation' />
+								<img src='../images/d3.png' width='200' title='D3.js' alt='D3.js' />
 							</li>
 							<li className='learning-future-li'>
 								<img src='../images/swift.png' width='200' title='Swift' alt='Swift' />

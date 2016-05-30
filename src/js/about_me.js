@@ -14,12 +14,12 @@ export default class AboutMe extends Component {
 	render() {
 		return (
 			<div className='about-me'>
-				<Line />
-				<Bar />
-				<PolarArea />
-				<Radar />
-				<Pie />
-				<Donut />
+				<Line className='chart' />
+				<Bar className='chart' />
+				<PolarArea className='chart' />
+				<Radar className='chart' />
+				<Pie className='chart' />
+				<Donut className='chart' />
 			</div>
 		)
 	}

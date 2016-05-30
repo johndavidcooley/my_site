@@ -6,33 +6,80 @@ export default class Resume extends Component {
 		return (
 			<div className='resume'>
 				<div className='education'>
-					<div className='edu-tiy'>
-						<img src='../images/tiy.png' width='400' title='The Iron Yard' alt='The Iron Yard' />
-						Atlanta, GA May 2016
-						Front End Engineering With MVC Frameworks
+					<div className='education-header'>
+						EDUCATION
 					</div>
-					<div className='edu-uf'>
-						<img src='../images/uf.png' width='400' title='University of Florida' alt='University of Florida' />
-						Gainesville, FL May 2011
-						Bachelor of Science, Advertising
-						Minor, Business Administration
+					<div className='education-sub'>
+						<div className='edu-tiy'>
+							<div className='image'>
+								<img src='../images/tiy.png' width='400' title='The Iron Yard' alt='The Iron Yard' />
+							</div>
+							<div className='location-and-time'>
+								<span>Atlanta, GA</span>
+								<span>May 2016</span>
+							</div>
+							<div className='course-of-study'>
+								Front End Engineering With MVC Frameworks
+							</div>
+						</div>
+						<div className='edu-uf'>
+							<div className='image'>
+								<img src='../images/uf.png' width='400' title='University of Florida' alt='University of Florida' />
+							</div>
+							<div className='location-and-time'>
+								<span>Gainesville, FL</span>
+								<span>May 2011</span>
+							</div>
+							<div className='course-of-study'>
+								Bachelor of Science, Advertising
+							</div>
+							<div className='course-of-study'>
+								Minor, Business Administration
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className='experience'>
-					<div className='exp-socius'>
-						<img src='../images/socius.png' title='Socius Marketing, Inc.' alt='Socius Marketing, Inc.' />
-						Tampa, FL May 2011 - January 2016
-						SEO Writer
-						Wrote SEO-specific content for the web to help increase organic rankings for clients in search engine results pages (SERPs). Conducted heavy research on keyword trends, keyword competition, and search traffic to develop marketing plans designed to maximize clients’ web presence. Edited the writing of peers for cohesion, flow, and grammar to consistently deliver a polished product. Posted client web content in WordPress, Adobe Dreamweaver, Drupal, Joomla!, and other content management systems. Used SEO-specific software from BrightLocal and Moz to test effectiveness and results. Frequently modified HTML and CSS files to satisfy client demands for website design.
+					<div className='experience-header'>
+						EXPERIENCE
 					</div>
-					<div className='exp-alligator'>
-						<img src='../images/alligator.png' title='The Independent Florida Alligator' alt='The Independent Florida Alligator' />
-						Gainesville, FL January 2011 - May 2011
-						Advertising Sales Representative
-						Sold newspaper and online advertising space to local businesses in Gainesville, FL. Developed professional relationships with clients to establish rapport and earn trust. Frequently attended in-person meetings with clients to discuss advertising strategies, ad placement, timing, and pricing. Created ad design mockups that captured the client’s vision. Ensured that payments were received before ads were scheduled to run.
+					<div className='experience-sub'>
+						<div className='exp-socius'>
+							<div className='image'>
+								<img src='../images/socius.png' width='350' title='Socius Marketing, Inc.' alt='Socius Marketing, Inc.' />
+							</div>
+							<div className='location-and-time'>
+								<span>Tampa, FL</span>
+								<span>May 2011 - January 2016</span>
+							</div>
+							<div className='position'>
+								SEO Writer
+							</div>
+							<div className='description'>
+								Wrote SEO-specific content for the web to help increase organic rankings for clients in search engine results pages (SERPs). Conducted heavy research on keyword trends, keyword competition, and search traffic to develop marketing plans designed to maximize clients’ web presence. Edited the writing of peers for cohesion, flow, and grammar to consistently deliver a polished product. Posted client web content in WordPress, Adobe Dreamweaver, Drupal, Joomla!, and other content management systems. Used SEO-specific software from BrightLocal and Moz to test effectiveness and results. Frequently modified HTML and CSS files to satisfy client demands for website design.
+							</div>	
+						</div>
+						<div className='exp-alligator'>
+							<div className='image'>
+								<img src='../images/alligator.png' width='400' title='The Independent Florida Alligator' alt='The Independent Florida Alligator' />
+							</div>
+							<div className='location-and-time'>
+								<span>Gainesville, FL</span>
+								<span>January 2011 - May 2011</span>
+							</div>
+							<div className='position'>
+								Advertising Sales Representative
+							</div>
+							<div className='description'>
+								Sold newspaper and online advertising space to local businesses in Gainesville, FL. Developed professional relationships with clients to establish rapport and earn trust. Frequently attended in-person meetings with clients to discuss advertising strategies, ad placement, timing, and pricing. Created ad design mockups that captured the client’s vision. Ensured that payments were received before ads were scheduled to run.
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className='skills'>
+					<div className='skills-header'>
+					SKILLS
+					</div>
 					<div className='front-end-development'>
 						Basic Front-End Development
 						<ul className='dev-ul'>

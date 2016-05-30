@@ -212,30 +212,165 @@ li {
 .resume {
 	min-height: 500px;
 	.education {
-		margin-bottom: 500px;
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		.edu-tiy {
-			width: 45%;
-			color: $TIY;
+		margin: 50px auto 100px auto;
+		.education-header {
+			color: $Moment;
+			font-family: 'Waiting for the Sunrise', cursive;
+			font-size: 50px;
+			text-align: center;
 		}
-		.edu-uf {
-			width: 45%;
-			color: $UF;
+		.education-sub {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 25px;
+			.edu-tiy {
+				width: 45%;
+				height: 525px;
+				color: $TIY;
+				font-size: 24px;
+				border-right: 1px solid $Moment;
+				.image {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: 0px auto 20px auto;
+				}
+				.location-and-time {
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					margin-bottom: 20px;
+				}
+				.course-of-study {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+			.edu-uf {
+				width: 45%;
+				height: 525px;
+				color: $UF;
+				font-size: 24px;
+				border-left: 1px solid $Moment;
+				.image {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: 162px auto 143px auto;
+				}
+				.location-and-time {
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					margin-bottom: 20px;
+				}
+				.course-of-study {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
 		}
 	}
 	.experience {
-		.exp-socius {
-			color: $Socius;
+		margin: 100px auto 100px auto;
+		.experience-header {
+			color: $Moment;
+			font-family: 'Waiting for the Sunrise', cursive;
+			font-size: 50px;
+			text-align: center;
 		}
-		.exp-alligator {
-			color: $Alligator;
+		.experience-sub {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 25px;
+			.exp-socius {
+				width: 45%;
+				height: 525px;
+				color: $Socius;
+				font-size: 24px;
+				padding-right: 15px;
+				border-right: 1px solid $Moment;
+				.image {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: 15px auto 20px auto;
+				}
+				.location-and-time {
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					margin-bottom: 20px;
+				}
+				.position {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-weight: italic;
+					margin-bottom: 20px;
+				}
+				.description {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 16px;
+					text-align: center;
+				}
+			}
+			.exp-alligator {
+				width: 45%;
+				height: 525px;
+				color: $Alligator;
+				font-size: 24px;
+				padding-left: 15px;
+				border-left: 1px solid $Moment;
+				.image {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: 15px auto 62px auto;
+				}
+				.location-and-time {
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					margin-bottom: 20px;
+				}
+				.position {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-weight: italic;
+					margin-bottom: 20px;
+				}
+				.description {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 16px;
+					text-align: center;
+				}
+			}
 		}
 	}
 	.skills {
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		color: $Moment;
+		text-align: center;
+		margin: 100px auto 100px auto;
+		.skills-header {
+			color: $Moment;
+			font-family: 'Waiting for the Sunrise', cursive;
+			font-size: 50px;
+			text-align: center;
+		}
 		.front-end-development {
-			margin: 40px auto;
+			margin: 30px auto 60px auto;
 			.dev-ul {
 				display: flex;
 				justify-content: space-between;
@@ -251,7 +386,7 @@ li {
 			}
 		}
 		.front-end-design {
-			margin: 40px auto;
+			margin: 60px auto;
 			.des-ul {
 				display: flex;
 				justify-content: space-between;
@@ -267,7 +402,7 @@ li {
 			}
 		}
 		.javascript {
-			margin: 40px auto;
+			margin: 60px auto;
 			.js-ul {
 				display: flex;
 				justify-content: space-between;
@@ -283,7 +418,7 @@ li {
 			}
 		}
 		.javascript-libraries {
-			margin: 40px auto;
+			margin: 60px auto;
 			.jsl-ul {
 				display: flex;
 				justify-content: space-between;
@@ -299,7 +434,7 @@ li {
 			}
 		}
 		.other-skills {
-			margin: 40px auto;
+			margin: 60px auto;
 			.other-ul {
 				display: flex;
 				justify-content: space-between;
@@ -374,11 +509,21 @@ li {
 .whats-next {
 	min-height: 500px;
 	.top-text {
+		width: 80%;
+		margin: 50px auto;
+		color: $Moment;
+		font-size: 30px;
+		text-align: center;
 	}
 	.now-and-then {
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 25px;
+		text-align: center;
 		.learning-now {
 			width: 70%;
-			margin: auto;
+			border-bottom: 4px solid $Moment;
+			padding-bottom: 40px;
+			margin: 50px auto 40px auto;
 			.learning-now-ul {
 				display: flex;
 				justify-content: space-between;
@@ -395,7 +540,7 @@ li {
 		}
 		.learning-future {
 			width: 70%;
-			margin: auto;
+			margin: 50px auto;
 			.learning-future-ul {
 				display: flex;
 				justify-content: space-between;
@@ -432,6 +577,10 @@ li {
 .about-me {
 	min-height: 500px;
 	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 
@@ -452,7 +601,8 @@ li {
 
 .line {
 	height: 500px;
-	width: 300px;
+	width: 500px;
+	margin: 100px auto;
 }
 
 
@@ -473,7 +623,8 @@ li {
 
 .bar {
 	height: 500px;
-	width: 300px;
+	width: 500px;
+	margin: 100px auto;
 }
 
 
@@ -494,7 +645,8 @@ li {
 
 .polar {
 	height: 500px;
-	width: 300px;
+	width: 500px;
+	margin: 100px auto;
 }
 
 
@@ -515,7 +667,8 @@ li {
 
 .radar {
 	height: 500px;
-	width: 300px;
+	width: 500px;
+	margin: 100px auto;
 }
 
 
@@ -536,7 +689,8 @@ li {
 
 .pie {
 	height: 500px;
-	width: 300px;
+	width: 500px;
+	margin: 100px auto;
 }
 
 
@@ -557,7 +711,8 @@ li {
 
 .doughnut {
 	height: 500px;
-	width: 300px;
+	width: 500px;
+	margin: 100px auto;
 }
 
 

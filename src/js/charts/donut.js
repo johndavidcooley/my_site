@@ -53,14 +53,11 @@ export default class Donut extends Component {
 
 	render() {
 		return (
-			<div>
-				<div>
-					<Link to="/">Back Home</Link>
-				</div>
+			<div className='doughnut'>
 				<div>
 					Donut Chart
 				</div>
-				<div className="pie">
+				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
 				</div>
 			</div>

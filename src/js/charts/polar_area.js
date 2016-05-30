@@ -57,14 +57,11 @@ export default class PolarArea extends Component {
 
 	render() {
 		return (
-			<div>
-				<div>
-					<Link to="/">Back Home</Link>
-				</div>
+			<div className='polar'>
 				<div>
 					Polar Area Chart
 				</div>
-				<div className="polar">
+				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
 				</div>
 			</div>

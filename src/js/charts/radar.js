@@ -55,14 +55,11 @@ export default class Line extends Component {
 
 	render() {
 		return (
-			<div>
-				<div>
-					<Link to="/">Back Home</Link>
-				</div>
+			<div className='radar'>
 				<div>
 					Radar Chart
 				</div>
-				<div className="radar">
+				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
 				</div>
 			</div>
