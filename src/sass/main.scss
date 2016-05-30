@@ -16,6 +16,10 @@ $Moment: #61B2A7;
 $LinkedIn: #0077B5;
 $GitHub: #800080;
 $GMail: #CF0000;
+$TIY: #233746;
+$UF: #0C259F;
+$Socius: #006790;
+$Alligator: #231F20;
 
 
 // VARIABLES -- END
@@ -208,45 +212,105 @@ li {
 .resume {
 	min-height: 500px;
 	.education {
+		margin-bottom: 500px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
 		.edu-tiy {
+			width: 45%;
+			color: $TIY;
 		}
 		.edu-uf {
+			width: 45%;
+			color: $UF;
 		}
 	}
 	.experience {
 		.exp-socius {
+			color: $Socius;
 		}
 		.exp-alligator {
+			color: $Alligator;
 		}
 	}
 	.skills {
 		.front-end-development {
+			margin: 40px auto;
 			.dev-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.dev-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 25%;
+					height: 250px;
 				}
 			}
 		}
 		.front-end-design {
+			margin: 40px auto;
 			.des-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.des-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 20%;
+					height: 250px;
 				}
 			}
 		}
 		.javascript {
+			margin: 40px auto;
 			.js-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.js-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 20%;
+					height: 250px;
 				}
 			}
 		}
 		.javascript-libraries {
+			margin: 40px auto;
 			.jsl-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.jsl-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 25%;
+					height: 250px;
 				}
 			}
 		}
 		.other-skills {
+			margin: 40px auto;
 			.other-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.other-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 25%;
+					height: 250px;
 				}
 			}
 		}
@@ -313,14 +377,36 @@ li {
 	}
 	.now-and-then {
 		.learning-now {
-			.learning-not-ul {
+			width: 70%;
+			margin: auto;
+			.learning-now-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.learning-now-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 33%;
+					height: 250px;
 				}
 			}
 		}
 		.learning-future {
+			width: 70%;
+			margin: auto;
 			.learning-future-ul {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
 				.learning-future-li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 33%;
+					height: 250px;
 				}
 			}
 		}

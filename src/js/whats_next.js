@@ -15,22 +15,22 @@ export default class WhatsNext extends Component {
 						Currently Learning...
 						<ul className='learning-now-ul'>
 							<li className='learning-now-li'>
-								<img src='../images/mongodb.png' title='Mongo DB' alt='Mongo DB' />
+								<img src='../images/mongodb.png' height='200' title='Mongo DB' alt='Mongo DB' />
 							</li>
 							<li className='learning-now-li'>
-								<img src='../images/express.png' title='Express.js' alt='Express.js' />
+								<img src='../images/express.png' width='200' title='Express.js' alt='Express.js' />
 							</li>
 							<li className='learning-now-li'>
-								<img src='../images/mocha.png' title='Mocha' alt='Mocha' />
+								<img src='../images/mocha.png' height='200' title='Mocha' alt='Mocha' />
 							</li>
 							<li className='learning-now-li'>
-								<img src='../images/angular.png' title='Angular 2' alt='Angular 2' />
+								<img src='../images/angular.png' height='200' title='Angular 2' alt='Angular 2' />
 							</li>
 							<li className='learning-now-li'>
-								<img src='../images/node.png' title='Node.js' alt='Node.js' />
+								<img src='../images/node.png' width='200' title='Node.js' alt='Node.js' />
 							</li>
 							<li className='learning-now-li'>
-								<img src='../images/chai.png' title='Chai' alt='Chai' />
+								<img src='../images/chai.png' height='200' title='Chai' alt='Chai' />
 							</li>
 						</ul>
 					</div>
@@ -38,31 +38,31 @@ export default class WhatsNext extends Component {
 						On Deck...
 						<ul className='learning-future-ul'>
 							<li className='learning-future-li'>
-								<img src='../images/backbone.png' title='EcmaScript 6' alt='EcmaScript 6' />
+								<img src='../images/backbone.png' width='200' title='EcmaScript 6' alt='EcmaScript 6' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/flux.png' title='Asynchronous JavaScript & XML' alt='Asynchronous JavaScript & XML' />
+								<img src='../images/flux.png' width='200' title='Asynchronous JavaScript & XML' alt='Asynchronous JavaScript & XML' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/phantom.png' title='PhantomJS' alt='PhantomJS' />
+								<img src='../images/phantom.png' width='200' title='PhantomJS' alt='PhantomJS' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/highcharts.png' title='Highcharts' alt='Highcharts' />
+								<img src='../images/highcharts.png' width='200' title='Highcharts' alt='Highcharts' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/d3.png' title='JavaScript Object Notation' alt='JavaScript Object Notation' />
+								<img src='../images/d3.png' width='200' title='JavaScript Object Notation' alt='JavaScript Object Notation' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/swift.png' title='Swift' alt='Swift' />
+								<img src='../images/swift.png' width='200' title='Swift' alt='Swift' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/jasmine.png' title='Jasmine' alt='Jasmine' />
+								<img src='../images/jasmine.png' width='200' title='Jasmine' alt='Jasmine' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/karma.png' title='Karma' alt='Karma' />
+								<img src='../images/karma.png' width='200' title='Karma' alt='Karma' />
 							</li>
 							<li className='learning-future-li'>
-								<img src='../images/protractor.png' title='Protractor' alt='Protractor' />
+								<img src='../images/protractor.png' width='200' title='Protractor' alt='Protractor' />
 							</li>
 						</ul>
 					</div>
