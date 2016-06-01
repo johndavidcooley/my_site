@@ -123,6 +123,9 @@ li {
 		color: #ffffff;
 		font-family: 'Raleway', sans-serif;
 		font-size: 50px;
+		&:hover {
+			color: #0D4C91;
+		}
 	}
 	.contact-icons {
 		display: flex;
@@ -210,7 +213,6 @@ li {
 
 
 .resume {
-	min-height: 500px;
 	.education {
 		margin: 50px auto 100px auto;
 		.education-header {
@@ -469,23 +471,228 @@ li {
 
 
 .projects {
-	min-height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background: lighten($Moment, 30%);
+	margin: auto;
+	padding-top: 50px;
 	.project {
+		width: 70%;
+		margin: 0px auto 35px auto;
+		text-align: center;
+		.name {
+			font-family: 'Waiting for the Sunrise', cursive;
+			font-weight: bold;
+			font-size: 80px;
+			text-align: center;
+		}
+		.description {
+			font-size: 16px;
+			text-align: center;
+			padding: 8px 60px;
+		}
+		.github-deployed {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			font-size: 35px;
+			padding: 15px;
+			.github {
+				display: inline-block;
+			}
+			.deployed {
+				display: inline-block;
+			}
+		}
 		&.hockey-doctor {
+			background: #003E7E;
+			color: #ffffff;
+			border-radius: 25px;
+			.github {
+				a {
+					color: white;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #ffffff;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.vote-atl {
+			background: #BA002A;
+			color: #032771;
+			border-radius: 25px;
+			.description {
+				color: #ffffff;
+			}
+			.github {
+				a {
+					color: #032771;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #032771;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.contact-list {
+			background: #000000;
+			color: #A7D076;
+			border-radius: 25px;
+			.github {
+				a {
+					color: #A7D076;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #A7D076;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.final-four {
+			background: #042246;
+			color: #AFA275;
+			border-radius: 25px;
+			.github {
+				a {
+					color: #AFA275;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #AFA275;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.ye-olde {
+			background: #3B1C00;
+			color: #EDCF87;
+			border-radius: 25px;
+			.github {
+				a {
+					color: #EDCF87;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #EDCF87;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.etsy-whiskey {
+			background: #F56400;
+			color: #EFEFEB;
+			border-radius: 25px;
+			.github {
+				a {
+					color: #EFEFEB;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #EFEFEB;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.dynamic-time {
+			background: #011241;
+			color: #006800;
+			border-radius: 25px;
+			.github {
+				a {
+					color: #006800;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #006800;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 		&.js-calculator {
+			background: #006800;
+			color: #89E389;
+			border-radius: 25px;
+			.github {
+				a {
+					color: #89E389;
+					&:hover {
+						color: $GitHub;
+						font-size: 40px;
+					}
+				}
+			}
+			.deployed {
+				a {
+					color: #89E389;
+					&:hover {
+						color: $Moment;
+						font-size: 40px;
+					}
+				}
+			}
 		}
 	}
 }
@@ -576,7 +783,7 @@ li {
 
 .about-me {
 	min-height: 500px;
-	background: #ffffff;
+	background: lighten($Moment, 40%);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -603,6 +810,12 @@ li {
 	height: 500px;
 	width: 500px;
 	margin: 100px auto;
+	.chart-title {
+		color: $Moment;
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
 }
 
 
@@ -625,6 +838,12 @@ li {
 	height: 500px;
 	width: 500px;
 	margin: 100px auto;
+	.chart-title {
+		color: $Moment;
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
 }
 
 
@@ -647,6 +866,12 @@ li {
 	height: 500px;
 	width: 500px;
 	margin: 100px auto;
+	.chart-title {
+		color: $Moment;
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
 }
 
 
@@ -669,6 +894,12 @@ li {
 	height: 500px;
 	width: 500px;
 	margin: 100px auto;
+	.chart-title {
+		color: $Moment;
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
 }
 
 
@@ -691,6 +922,12 @@ li {
 	height: 500px;
 	width: 500px;
 	margin: 100px auto;
+	.chart-title {
+		color: $Moment;
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
 }
 
 
@@ -713,6 +950,12 @@ li {
 	height: 500px;
 	width: 500px;
 	margin: 100px auto;
+	.chart-title {
+		color: $Moment;
+		font-family: 'Waiting for the Sunrise', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
 }
 
 

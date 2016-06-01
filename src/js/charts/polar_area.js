@@ -18,27 +18,27 @@ export default class PolarArea extends Component {
 	var data = {
 	    datasets: [{
 	        data: [
-	            11,
-	            16,
-	            7,
-	            3,
-	            14
+	            35,
+	            28,
+	            17,
+	            20,
+	            0
 	        ],
 	        backgroundColor: [
-	            "#FF6384",
-	            "#4BC0C0",
-	            "#FFCE56",
-	            "#E7E9ED",
-	            "#36A2EB"
+				'#F48024',
+				'#EA4335',
+				'#EDB000',
+				'#4285F4',
+				'#34A853'
 	        ],
 	        label: 'My dataset' // for legend
 	    }],
 	    labels: [
-	        "Red",
-	        "Green",
-	        "Yellow",
-	        "Grey",
-	        "Blue"
+	        'Stack Overflow',
+	        'Google',
+	        'Rubber Duck Debugging',
+	        'Asking For Help',
+	        'Giving Up',
 	    ]
 	};
 
@@ -58,8 +58,8 @@ export default class PolarArea extends Component {
 	render() {
 		return (
 			<div className='polar'>
-				<div>
-					Polar Area Chart
+				<div className='chart-title'>
+					How I Get Through Debugging Issues
 				</div>
 				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>

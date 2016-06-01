@@ -15,27 +15,17 @@ export default class Line extends Component {
 	componentDidMount() {
 
 	var data = {
-	    labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+	    labels: ['Soccer', 'NFL', 'NBA', 'NHL', 'MLB', 'NCAA Football', 'NCAA Basketball', 'Golf', 'Tennis',],
 	    datasets: [
 	        {
-	            label: "My First dataset",
-	            backgroundColor: "rgba(179,181,198,0.2)",
-	            borderColor: "rgba(179,181,198,1)",
-	            pointBackgroundColor: "rgba(179,181,198,1)",
+	            label: 'On a Scale of 1 to 10',
+	            backgroundColor: 'rgba(38,199,113,0.2)',
+	            borderColor: '#26C771',
+	            pointBackgroundColor: '#2633C7',
 	            pointBorderColor: "#fff",
 	            pointHoverBackgroundColor: "#fff",
-	            pointHoverBorderColor: "rgba(179,181,198,1)",
-	            data: [65, 59, 90, 81, 56, 55, 40]
-	        },
-	        {
-	            label: "My Second dataset",
-	            backgroundColor: "rgba(255,99,132,0.2)",
-	            borderColor: "rgba(255,99,132,1)",
-	            pointBackgroundColor: "rgba(255,99,132,1)",
-	            pointBorderColor: "#fff",
-	            pointHoverBackgroundColor: "#fff",
-	            pointHoverBorderColor: "rgba(255,99,132,1)",
-	            data: [28, 48, 40, 19, 96, 27, 100]
+	            pointHoverBorderColor: '#FA6800',
+	            data: [0, 4, 5, 7, 3, 10, 8, 8, 5]
 	        }
 	    ]
 	};
@@ -56,8 +46,8 @@ export default class Line extends Component {
 	render() {
 		return (
 			<div className='radar'>
-				<div>
-					Radar Chart
+				<div className='chart-title'>
+					My Interest Level In Various Sports
 				</div>
 				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>

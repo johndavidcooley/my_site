@@ -17,22 +17,34 @@ export default class Pie extends Component {
 
 	var data = {
 	    labels: [
-	        "Red",
-	        "Green",
-	        "Yellow"
+	        'Coding',
+	        'Sleeping',
+	        'Running',
+	        'Eating',
+	        'Netflix',
+	        'Drinking Craft Beer',
+	        'Sitting In Traffic'
 	    ],
 	    datasets: [
 	        {
-	            data: [300, 50, 100],
+	            data: [52, 60, 12, 14, 10, 10, 10],
 	            backgroundColor: [
-	                "#FF6384",
-	                "#36A2EB",
-	                "#FFCE56"
+	                '#4DD68F',
+	                '#63D6D6',
+	                '#A39F17',
+	                '#FF6200',
+	                '#B9090B',
+	                '#FFC400',
+	                '#4A0F0F'
 	            ],
 	            hoverBackgroundColor: [
-	                "#FF6384",
-	                "#36A2EB",
-	                "#FFCE56"
+	            '#61B2A7',
+	            '#61B2A7',
+	            '#61B2A7',
+	            '#61B2A7',
+	            '#61B2A7',
+	            '#61B2A7',
+	            '#61B2A7'
 	            ]
 	        }]
 	};
@@ -53,8 +65,8 @@ export default class Pie extends Component {
 	render() {
 		return (
 			<div className='pie'>
-				<div>
-					Pie Chart
+				<div className='chart-title'>
+					A Typical Week For Me
 				</div>
 				<div>
 					<canvas ref={canvas => this.canvas = canvas} width="500" height="500"></canvas>
