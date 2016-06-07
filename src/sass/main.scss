@@ -192,6 +192,7 @@ li {
 
 
 .home {
+	background: lighten(#0D4C91, 65%);
 	min-height: 500px;
 	.home-container {
 		width: 90%;
@@ -199,7 +200,8 @@ li {
 		justify-content: center;
 		align-items: center;
 		// flex-wrap: wrap;
-		margin: 50px auto;
+		padding: 50px 0px;
+		margin: auto;
 		color: $Moment;
 		.left-side {
 			width: 50%;
