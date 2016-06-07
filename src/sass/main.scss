@@ -193,7 +193,32 @@ li {
 
 .home {
 	min-height: 500px;
-	margin: 25px auto auto 25px;
+	.home-container {
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		// flex-wrap: wrap;
+		margin: 50px auto;
+		color: $Moment;
+		.left-side {
+			width: 50%;
+			height: 100%;
+			font-size: 28px;
+			padding-right: 20px;
+		}
+		.right-side {
+			width: 50%;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			padding-left: 20px;
+			img {
+				border: 10px solid $Moment;
+				border-radius: 100%;
+			}
+		}
+	}
 }
 
 
