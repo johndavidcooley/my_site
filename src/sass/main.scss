@@ -90,6 +90,9 @@ li {
 		&:hover {
 			color: #0D4C91;
 		}
+		&:active {
+			color: lighten($Moment, 20%);
+		}
 	}
 }
 
@@ -538,6 +541,9 @@ li {
 			background: #003E7E;
 			color: #ffffff;
 			border-radius: 25px;
+			.black {
+				color: #F56400;
+			}
 			.github {
 				a {
 					color: white;
@@ -742,10 +748,12 @@ li {
 
 .whats-next {
 	min-height: 500px;
+	background: lighten($Moment, 30%);
 	.top-text {
 		width: 80%;
-		margin: 50px auto;
+		margin: 0px auto 050px auto;
 		color: $Moment;
+		padding-top: 50px;
 		font-size: 30px;
 		text-align: center;
 	}
@@ -774,7 +782,8 @@ li {
 		}
 		.learning-future {
 			width: 70%;
-			margin: 50px auto;
+			margin: 50px auto 0px auto;
+			padding-bottom: 50px;
 			.learning-future-ul {
 				display: flex;
 				justify-content: space-between;

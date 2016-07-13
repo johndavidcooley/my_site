@@ -10,7 +10,7 @@ export default class Projects extends Component {
 						Hockey Doctor
 					</div>
 					<div className='description'>
-						An application providing fantasy hockey statistics and information tailored for users' specific fantasy leagues. The back end was built by a friend using Ruby on Rails and the Yahoo! Fantasy Sports API.
+						An application providing fantasy hockey statistics and information tailored for users' specific fantasy leagues. The back end was built by a friend using Ruby on Rails and the Yahoo! Fantasy Sports API. Due to database restrictions with Heroku, I asked that you please log in with username <span className='black'>colorado</span> and password <span className='black'>avalanche</span>.
 					</div>
 					<div className='github-deployed'>
 						<div className='github'>
