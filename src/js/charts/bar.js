@@ -25,7 +25,7 @@ export default class Bar extends Component {
 	            borderWidth: 1,
 	            hoverBackgroundColor: '#FB5316',
 	            hoverBorderColor: '#0B2E82',
-	            data: [242, 110, 105, 101, 34, 58, 29, 54],
+	            data: [246, 110, 110, 102, 35, 63, 31, 67],
 	        }
 	    ]
 	};

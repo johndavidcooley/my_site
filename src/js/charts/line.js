@@ -100,7 +100,7 @@ export default class Line extends Component {
 	            pointHoverBorderWidth: 2,
 	            pointRadius: 1,
 	            pointHitRadius: 10,
-	            data: [39.2, 100, 72.4, 142, 124, null, null, null, null, null, null, null],
+	            data: [39.2, 100, 72.4, 142, 124, 71.8, 37.9, null, null, null, null, null],
 	        }
 	    ]
 	};
