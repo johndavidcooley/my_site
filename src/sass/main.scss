@@ -563,32 +563,6 @@ li {
 				}
 			}
 		}
-		&.vote-atl {
-			background: #BA002A;
-			color: #032771;
-			border-radius: 25px;
-			.description {
-				color: #ffffff;
-			}
-			.github {
-				a {
-					color: #032771;
-					&:hover {
-						color: $GitHub;
-						font-size: 40px;
-					}
-				}
-			}
-			.deployed {
-				a {
-					color: #032771;
-					&:hover {
-						color: $Moment;
-						font-size: 40px;
-					}
-				}
-			}
-		}
 		&.contact-list {
 			background: #000000;
 			color: #A7D076;
