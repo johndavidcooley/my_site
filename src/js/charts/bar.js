@@ -16,7 +16,7 @@ export default class Bar extends Component {
 	componentDidMount() {
 
 	var data = {
-	    labels: ['IPA', 'Double IPA', 'Imperial Stout', 'Pale Ale', 'Pilsner', 'Saison', 'Berliner Weisse', 'Wild Ale'],
+	    labels: ['IPA', 'Double IPA', 'Imperial Stout', 'Pale Ale', 'Pilsner', 'Saison', 'Sour Ale', 'Barleywine'],
 	    datasets: [
 	        {
 	            label: "Number of Different Beers I've Had",
@@ -25,7 +25,7 @@ export default class Bar extends Component {
 	            borderWidth: 1,
 	            hoverBackgroundColor: '#FB5316',
 	            hoverBorderColor: '#0B2E82',
-	            data: [246, 110, 110, 102, 35, 63, 31, 67],
+	            data: [251, 113, 119, 102, 37, 67, 110, 10],
 	        }
 	    ]
 	};
