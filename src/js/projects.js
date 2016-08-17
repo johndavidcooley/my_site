@@ -25,26 +25,6 @@ export default class Projects extends Component {
 						</div>
 					</div>
 				</div>
-				<div className='project vote-atl'>
-					<div className='name'>
-						Vote ATL
-					</div>
-					<div className='description'>
-						A voting application designed to allow Atlanta residents to vote in mayoral elections from a computer, tablet, or phone - eliminating a trip to a polling location.
-					</div>
-					<div className='github-deployed'>
-						<div className='github'>
-							<a href='https://github.com/PB-and-jQuery' target='_blank'>
-								GitHub
-							</a>
-						</div>
-						<div className='deployed'>
-							<a href='https://vote-atlanta.surge.sh' target='_blank'>
-								Deployed Site
-							</a>
-						</div>
-					</div>
-				</div>
 				<div className='project contact-list'>
 					<div className='name'>
 						React Contact List
