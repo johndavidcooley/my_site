@@ -16,7 +16,7 @@ import AboutMe from './about_me';
 
 
 render((
-	<Router history={hashHistory} >
+	<Router history={hashHistory}>
 		<Route path='/' component={WithNavs}>
 			<IndexRoute component={Home} />
 			<Route path='/resume' component={Resume} />

@@ -6,7 +6,7 @@ import React, { PropTypes, Component } from 'react';
 
 export default class Icon extends Component {
 
-	static propTyps = {
+	static propTypes = {
 		type: PropTypes.string.isRequired
 	}
 
